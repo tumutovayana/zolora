@@ -1,0 +1,194 @@
+body  {
+     background:#87CEEB;
+     color:black;
+     font-size:14;
+     margin:30px;
+     line-height:2;
+     
+}
+@font-face { 
+     font-family: Shrift;
+     src:url("../font/mikar.woff") format("woff");
+}
+h1 {
+     font-size:24;
+     font-family: Shrift;
+     text-align: center;
+     letter-spacing: 3px;
+     text-decoration: overline;
+     text-shadow: 2px 2px white;
+}
+p  {
+     text-indent: 25px;
+     font-size:14;
+     line-height:1.3;
+}
+.si {
+     float:left;
+     margin: 5px 5px 5px 0;
+}
+h2  {
+     font-size:18;
+     font-family: Shrift;
+     text-align: center;
+     letter-spacing: 3px;
+     text-shadow: 2px 2px white;
+}
+.structura {
+      float:right;
+     margin: 5px 5px 5px 0;
+     width: 50%;
+     height: 50%;
+}
+h3 { 
+      text-indent:50px;
+      font-size:16;
+}
+ table {
+    border-collapse: collapse;
+    width: 65%;
+    margin:50px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.h {
+    background-color: #dddddd;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 50px; 
+}
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    overflow-x: auto;
+    font-size: 14px;
+    width: 80%;
+    margin:30px;
+    border-radius: 10px;
+    border:2px solid  #000000;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #f8f8f8;
+}
+.fon {
+    background-color:white;
+    padding: 10px;
+    margin:30px;
+     border-radius: 10px;
+    width:80%;
+    border:2px solid  #000000;   
+}
+.text{
+    color:black;
+    text-align: left;
+    margin-top: 30px; 
+  margin-bottom: 30px;
+}
+.v {
+    font-size:18;
+    margin-top:0;
+}
+p.primer {
+    margin:10px;
+    letter-spacing:1.5
+}
+.ramka {
+    border:2px solid  #000000;
+    background-color:white;
+}
+img.pp {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:60%;
+    opacity: 0.5;
+}
+.picture {
+    list-style-image: url("Background.png");
+    margin:35px;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.features-block span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features-block span > picture {
+  margin: auto;
+}
+
+.features-block span img {
+  width: 120%;
+  height: 90%;
+}
+.l {
+  text-align:left;
+  border-style: ridge;
+}
+.textcols {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.textcols-item {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 50%;
+       
+	
+}
+.textcols-item + .textcols-item {
+	margin-left: 30%;
+}
+.cursorr {
+        cursor: pointer;
+        text-transform: uppercase;
+}
+.dev{
+       border: 1px solid black;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-color: lightblue;
+   text-align: center;
+}
+.textcols {
+	overflow: hidden;
+}
+.textcols-left {
+	float: left;
+	width: 48%;
+	background: lightblue;
+}
+.textcols-right {
+	background: lightblue;
+        width: 48%;
+}
