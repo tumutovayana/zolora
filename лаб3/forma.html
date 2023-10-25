@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Repair</title>
+            <link rel="stylesheet" href="./css/normalize.css">
+            <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <fieldset>
+             <legend class="title_list">Заявка на ремонт ноутбука</legend>
+         <form>
+            <div class="row">
+                <div class="left-part">
+                        <label for="date">Дата:</label>
+                </div>
+                <div class="right-part">
+                    <input type="date" id="date" placeholder="Введите дату..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-part">
+                    <label for="name">Заказчик:</label>
+            </div>
+            <div class="right-part">
+                <input type="text" id="name" placeholder="Введите имя..">
+            </div>
+            </div>
+            <div class="row">
+                <div class="left-part">
+                    <label for="address">Адрес:</label>
+                </div>
+                <div class="right-part">
+                    <input type="text" id="address" placeholder="Введите адрес..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-part">
+                   <label for="phone">Телефон:</label>
+                </div>
+                <div class="right-part">
+                    <input type="tel" id="phone" placeholder="Введите номер телефона..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-part">
+                   <label for="mail">Адрес электронной почты:</label>
+                </div>
+                <div class="right-part">
+                    <input type="email" id="mail" placeholder="Введите адрес электронной почты.."><br>
+                    <input type="checkbox" id="email" value="interest" name="user_mail"><label class="mails" for="email">Нет электронной почты</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-part">
+                   <label for="stamp">Марка ноутбука:</label>
+                </div>
+                <div class="right-part">
+                    <input type="checkbox" id="lenovo" value="interest_engineering" name="user_stamp"><label class="light" for="lenovo">Lenovo</label><br>
+                    <input type="checkbox" id="huawei" value="interest_engineerin" name="user_stamp"><label class="light" for="huawei">Huawei</label><br>
+                    <input type="checkbox" id="honor" value="interest_engineeri" name="user_stamp"><label class="light" for="honor">Honor</label><br>
+                    <input type="checkbox" id="hp" value="interest_engineer" name="user_stamp"><label class="light" for="hp">HP</label><br>
+                    <input type="checkbox" id="asus" value="interest_enginee" name="user_stamp"><label class="light" for="asus">ASUS</label><br>
+                    <input type="checkbox" id="mac" value="interest_engine" name="user_stamp"><label class="light" for="mac">MacBook</label><br>
+                    <input type="checkbox" id="th" value="interest_engin" name="user_stump"><label class="light" for="th">Thunderobot</label><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-part">
+                   <label for="model">Модель, характеристика, год выпуска, серийный номер:</label>
+                </div>
+                <div class="right-part">
+                    <textarea name="models" id="model" cols="30" rows="10" placeholder="Введите остальное.."></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-part">
+                   <label for="actions">Что нужно выполнить:</label>
+                </div>
+                <div class="right-part">
+                    <select name="action" id="actions" placeholder="Что нужно выполнить">
+                        <option value="repair">Ремонт</option>
+                        <option value="service">Техничесоке обслуживание</option>
+                        <option value="diagnostics">Диагностика</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-part">
+                   <label for="problem">Описание неисправности:</label>
+                </div>
+                <div class="right-part">
+                    <textarea name="discription" id="problem" cols="30" rows="10" placeholder="Введите описание неисправности"></textarea>
+                </div>
+            </div>
+            <button type="submit">Отправить</button> 
+         </form>
+        </fieldset>
+        </div>
+    </body>
+</html>
