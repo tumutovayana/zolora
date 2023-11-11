@@ -1,0 +1,187 @@
+
+.puzzle {
+    width: 550px;
+    height: 450px;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.puzzle div {
+    position: absolute;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.block1 {
+    margin-top: 75px;
+    margin-left: 0;
+    width: 70px;
+    height: 70px;
+    background: #2ecc71;
+    animation: fourth 8s infinite linear;
+}
+@keyframes fourth {
+    from 
+    {transform: translate(0,0);}
+    11%
+     {transform: translate(0,75px);}
+    22%
+     {transform: translate(300px,0px);}
+    66%
+     {transform: translate(300px,0px);}
+    77%
+     {transform: translate(0,75px);}
+    88%
+     {transform: translate(0,0);}
+    to
+     {transform: translate(0,0);}
+}
+.block2 {
+    margin-top: 375px;
+    margin-left: 225px;
+    width: 145px;
+    height: 70px;
+    background: #2ecc71;
+    animation: eight 8s infinite linear;
+}
+@keyframes eight {
+    from 
+    {transform: translate(0,0);}
+    11% 
+    {transform: translate(-75px,0);}
+    22% 
+    {transform: translate(-75px,-300px);}
+    66% 
+    {transform: translate(-75px,-300px);}
+    77% 
+    {transform: translate(-75px,0);}
+    88% 
+    {transform: translate(0,0);}
+    to 
+    {transform: translate(0,0);}
+}
+.block3 {
+    margin-top: 375px;
+    margin-left: 375px;
+    width: 70px;
+    height: 70px;
+    background: #2ecc71;
+    animation: first 8s infinite linear; 
+}
+@keyframes first {
+    0% 
+    {transform: translate(0,0);}
+    22% 
+    {transform: translate(-300px,-300px);}
+    66% 
+    {transform: translate(-300px,-300px);}
+    88% 
+    {transform: translate(0,0);}
+    100% 
+    {transform: translate(0,0);}
+}
+
+.block4 {
+    margin-top: 0;
+    margin-left: 375px;
+    width: 70px;
+    height: 220px;
+    background: #3498db;
+    animation: second 8s infinite linear;
+}
+@keyframes second {
+    0% 
+    {transform: translate(0,0);}
+    22% 
+    {transform: translate(-300px,150px);}
+    66% 
+    {transform: translate(-300px,150px);}
+    88% 
+    {transform: translate(0,0);}
+    100% 
+    {transform: translate(0,0);}    
+}
+
+.block5 {
+    margin-top: 225px;
+    margin-left: 375px;
+    width: 70px;
+    height: 145px;
+    background: #f1c40f;
+    animation: third 8s infinite linear;
+}
+@keyframes third {
+    0% 
+    {transform: translate(0,0);}
+    22% 
+    {transform: translate(-225px,-75px);}
+    66% 
+    {transform: translate(-225px,-75px);}
+    88% 
+    {transform: translate(0,0);}
+    100% 
+    {transform: translate(0,0);}
+}
+
+.block6 {
+    margin-top: 375px;
+    margin-left: 0;
+    width: 145px;
+    height: 70px;
+    background: #f1c40f;
+    animation: fivth 8s infinite linear;
+}
+@keyframes fivth {
+    0% 
+    {transform: translate(0,0);}
+    22% 
+    {transform: translate(225px,-225px);}
+    66% 
+    {transform: translate(225px,-225px);}
+    88% 
+    {transform: translate(0,0);}
+    100% 
+    {transform: translate(0,0);}
+}
+
+.block7 {
+    margin-top: 0;
+    margin-left: 225px;
+    width: 145px;
+    height: 70px;
+    background: #f1c40f;
+    animation: sixth 8s infinite linear;
+}
+@keyframes sixth {
+    0%
+     {transform: translateY(0);}
+    22% 
+    {transform: translateY(225px);}
+    66% 
+    {transform: translateY(225px);}
+    88% 
+    {transform: translate(0,0);}
+    100% 
+    {transform: translateY(0);}    
+}
+
+.block8 {
+    margin-top: 0;
+    margin-left: 0;
+    width: 220px;
+    height: 70px;
+    background: #3498db;
+    animation: seventh 8s infinite linear;
+}
+@keyframes seventh {
+    0% 
+    {transform: translate(0,0);}
+    22% 
+    {transform: translate(150px,300px);}
+    66% 
+    {transform: translate(150px,300px);}
+    88% 
+    {transform: translate(0,0);}
+    100% 
+    {transform: translate(0,0);}
+}

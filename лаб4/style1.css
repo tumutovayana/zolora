@@ -1,0 +1,88 @@
+.picture {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 400px;;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.vase {
+    width: 150px;
+    height: 50px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-radius: 35%;
+    background-color:pink;
+
+}
+.flower1 {
+    height: 15px; 
+    width: 60px;
+    background: linear-gradient(45deg, #E5556B 50%, transparent 51%), linear-gradient(315deg, #E5556B 50%, transparent 51%);
+    background-size: 30px 30px;
+    border-bottom: 40px solid #E5556B;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    position: absolute;
+    bottom: 400px;
+  }
+.stem1 {
+    width: 10px;
+    height: 150px;
+    background: #77FF00;
+    position: absolute;
+    bottom: 250px;
+}
+.stem2 {
+    width: 1px;
+    height: 130px;
+    background: #77FF00;
+    position: absolute;
+    bottom: 248px;
+    border-top: 9px solid transparent;
+    border-right: 9px solid #77FF00;
+    transform: rotate(10deg);
+    right: 720px;
+}
+.stem3 {
+    position: absolute;
+    bottom: 248px;
+    background: #77FF00;
+    width: 1px;
+    height: 130px;
+    left: 720px;
+    border-top: 9px solid transparent;
+    border-left: 8px solid #77FF00;
+    transform: rotate(-10deg);
+}
+.flower2 {
+    height: 15px; 
+    width: 60px;
+    background: linear-gradient(45deg, #E5556B 50%, transparent 51%), linear-gradient(315deg, #E5556B 50%, transparent 51%);
+    background-size: 30px 30px;
+    border-bottom: 40px solid #E5556B;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    position: absolute;
+    bottom: 383px;
+    transform: rotate(-10deg);
+    left: 670px;
+}
+.flower3 {
+    height: 15px; 
+    width: 60px;
+    background: linear-gradient(45deg, #E5556B 50%, transparent 51%), linear-gradient(315deg, #E5556B 50%, transparent 51%);
+    background-size: 30px 30px;
+    border-bottom: 40px solid #E5556B;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    position: absolute;
+    bottom: 383px;
+    transform: rotate(21deg);
+    right: 670px;
+}
+
+
